@@ -20,7 +20,7 @@
 Si vous exécutez l'application de travail à faire avant d'implémenter `onSaveInstanceState()`, que se passe-t-il si vous faites pivoter le périphérique? Choisissez-en un:
 
 - [ ] L'`EditText` ne contient plus le texte que vous avez entré, mais le compteur est conservé.
-- [ ] Le compteur est réinitialisé à 0 et l'`EditText` ne contient plus le texte que vous avez entré.
+- [ *] Le compteur est réinitialisé à 0 et l'`EditText` ne contient plus le texte que vous avez entré.
 - [ ] Le compteur est réinitialisé à 0, mais le contenu de l'`EditText` est préservé.
 - [ ] Le compteur et le contenu de `EditText` sont préservés.
 
@@ -29,7 +29,7 @@ Si vous exécutez l'application de travail à faire avant d'implémenter `onSave
 Quelles méthodes de cycle de vie d'activité sont appelées lorsqu'un changement de configuration de périphérique (tel qu'une rotation) se produit? Choisissez-en un:
 
 - [ ] Android ferme immédiatement votre activité en appelant `onStop()`. Votre code doit redémarrer l'activité.
-- [ ] Android arrête votre activité en appelant `onPause()`, `onStop()` et `onDestroy()`. Votre code doit redémarrer l'activité.
+- [* ] Android arrête votre activité en appelant `onPause()`, `onStop()` et `onDestroy()`. Votre code doit redémarrer l'activité.
 - [ ] Android arrête votre activité en appelant `onPause()`, `onStop()` et `onDestroy()`, puis redémarre l'opération en appelant `onCreate()`, `onStart()` et `onResume()`.
 - [ ] Android appelle immédiatement `onResume()`.
 
@@ -37,7 +37,7 @@ Quelles méthodes de cycle de vie d'activité sont appelées lorsqu'un changemen
 
 Lorsque dans le cycle de vie de l'activité, `onSaveInstanceState()` est appelé? Choisissez-en un:
 
-- [ ] `onSaveInstanceState()` est appelée avant la méthode `onStop()`.
+- [ *] `onSaveInstanceState()` est appelée avant la méthode `onStop()`.
 - [ ] `onSaveInstanceState()` est appelée avant la méthode `onResume()`.
 - [ ] `onSaveInstanceState()` est appelée avant la méthode `onCreate()`.
 - [ ] `onSaveInstanceState()` est appelée avant la méthode `onDestroy()`.
@@ -46,7 +46,7 @@ Lorsque dans le cycle de vie de l'activité, `onSaveInstanceState()` est appelé
 
 Quelles méthodes de cycle de vie d'Activité sont les meilleures à utiliser pour enregistrer des données avant la fin ou la destruction de l'activité? Choisissez-en un:
 
-- [ ] `onPause()` ou `onStop()`
+- [ *] `onPause()` ou `onStop()`
 - [ ] `onResume()` ou `onCreate()`
 - [ ] `onDestroy()`
 - [ ] `onStart()` ou `onRestart()`
